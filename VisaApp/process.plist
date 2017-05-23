@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>准备并上传资料、完善申请表</string>
+		<key>detial</key>
+		<string>准备资料好后拍照上传，完善申请表</string>
+		<key>num</key>
+		<string>①</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>下单支付</string>
+		<key>detial</key>
+		<string>选择支付宝/微信支付费用</string>
+		<key>num</key>
+		<string>②</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>寄送资料</string>
+		<key>detial</key>
+		<string>按邮寄资料清单寄送资料</string>
+		<key>num</key>
+		<string>③</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>资料审核并送签</string>
+		<key>detial</key>
+		<string>签证专员预审资料、审核通过后第一时间安排送馆</string>
+		<key>num</key>
+		<string>④</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>出签并配送</string>
+		<key>detial</key>
+		<string>出签后核对签证页信息，顺丰快递到您所填写的邮寄地址</string>
+		<key>num</key>
+		<string>⑤</string>
+	</dict>
+</array>
+</plist>

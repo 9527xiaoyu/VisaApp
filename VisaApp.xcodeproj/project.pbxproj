@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A6C80471E10043D00C9F53C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6C80461E10043D00C9F53C /* main.m */; };
+		9A6C804A1E10043D00C9F53C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6C80491E10043D00C9F53C /* AppDelegate.m */; };
+		9A6C804D1E10043D00C9F53C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6C804C1E10043D00C9F53C /* ViewController.m */; };
+		9A6C80501E10043D00C9F53C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6C804E1E10043D00C9F53C /* Main.storyboard */; };
+		9A6C80521E10043E00C9F53C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A6C80511E10043E00C9F53C /* Assets.xcassets */; };
+		9A6C80551E10043E00C9F53C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6C80531E10043E00C9F53C /* LaunchScreen.storyboard */; };
+		9A6C80601E10043E00C9F53C /* VisaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6C805F1E10043E00C9F53C /* VisaAppTests.m */; };
+		9A6C806B1E10043E00C9F53C /* VisaAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6C806A1E10043E00C9F53C /* VisaAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A6C805C1E10043E00C9F53C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A6C803A1E10043D00C9F53C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A6C80411E10043D00C9F53C;
+			remoteInfo = VisaApp;
+		};
+		9A6C80671E10043E00C9F53C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A6C803A1E10043D00C9F53C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A6C80411E10043D00C9F53C;
+			remoteInfo = VisaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A6C80421E10043D00C9F53C /* VisaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6C80461E10043D00C9F53C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A6C80481E10043D00C9F53C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A6C80491E10043D00C9F53C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A6C804B1E10043D00C9F53C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A6C804C1E10043D00C9F53C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A6C804F1E10043D00C9F53C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A6C80511E10043E00C9F53C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A6C80541E10043E00C9F53C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A6C80561E10043E00C9F53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A6C805B1E10043E00C9F53C /* VisaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6C805F1E10043E00C9F53C /* VisaAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisaAppTests.m; sourceTree = "<group>"; };
+		9A6C80611E10043E00C9F53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A6C80661E10043E00C9F53C /* VisaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6C806A1E10043E00C9F53C /* VisaAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisaAppUITests.m; sourceTree = "<group>"; };
+		9A6C806C1E10043E00C9F53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A6C803F1E10043D00C9F53C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6C80581E10043E00C9F53C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6C80631E10043E00C9F53C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A6C80391E10043D00C9F53C = {
+			isa = PBXGroup;
+			children = (
+				9A6C80441E10043D00C9F53C /* VisaApp */,
+				9A6C805E1E10043E00C9F53C /* VisaAppTests */,
+				9A6C80691E10043E00C9F53C /* VisaAppUITests */,
+				9A6C80431E10043D00C9F53C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A6C80431E10043D00C9F53C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A6C80421E10043D00C9F53C /* VisaApp.app */,
+				9A6C805B1E10043E00C9F53C /* VisaAppTests.xctest */,
+				9A6C80661E10043E00C9F53C /* VisaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A6C80441E10043D00C9F53C /* VisaApp */ = {
+			isa = PBXGroup;
+			children = (
+				9A6C80481E10043D00C9F53C /* AppDelegate.h */,
+				9A6C80491E10043D00C9F53C /* AppDelegate.m */,
+				9A6C804B1E10043D00C9F53C /* ViewController.h */,
+				9A6C804C1E10043D00C9F53C /* ViewController.m */,
+				9A6C804E1E10043D00C9F53C /* Main.storyboard */,
+				9A6C80511E10043E00C9F53C /* Assets.xcassets */,
+				9A6C80531E10043E00C9F53C /* LaunchScreen.storyboard */,
+				9A6C80561E10043E00C9F53C /* Info.plist */,
+				9A6C80451E10043D00C9F53C /* Supporting Files */,
+			);
+			path = VisaApp;
+			sourceTree = "<group>";
+		};
+		9A6C80451E10043D00C9F53C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A6C80461E10043D00C9F53C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A6C805E1E10043E00C9F53C /* VisaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A6C805F1E10043E00C9F53C /* VisaAppTests.m */,
+				9A6C80611E10043E00C9F53C /* Info.plist */,
+			);
+			path = VisaAppTests;
+			sourceTree = "<group>";
+		};
+		9A6C80691E10043E00C9F53C /* VisaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A6C806A1E10043E00C9F53C /* VisaAppUITests.m */,
+				9A6C806C1E10043E00C9F53C /* Info.plist */,
+			);
+			path = VisaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A6C80411E10043D00C9F53C /* VisaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6C806F1E10043E00C9F53C /* Build configuration list for PBXNativeTarget "VisaApp" */;
+			buildPhases = (
+				9A6C803E1E10043D00C9F53C /* Sources */,
+				9A6C803F1E10043D00C9F53C /* Frameworks */,
+				9A6C80401E10043D00C9F53C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisaApp;
+			productName = VisaApp;
+			productReference = 9A6C80421E10043D00C9F53C /* VisaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A6C805A1E10043E00C9F53C /* VisaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6C80721E10043E00C9F53C /* Build configuration list for PBXNativeTarget "VisaAppTests" */;
+			buildPhases = (
+				9A6C80571E10043E00C9F53C /* Sources */,
+				9A6C80581E10043E00C9F53C /* Frameworks */,
+				9A6C80591E10043E00C9F53C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A6C805D1E10043E00C9F53C /* PBXTargetDependency */,
+			);
+			name = VisaAppTests;
+			productName = VisaAppTests;
+			productReference = 9A6C805B1E10043E00C9F53C /* VisaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A6C80651E10043E00C9F53C /* VisaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6C80751E10043E00C9F53C /* Build configuration list for PBXNativeTarget "VisaAppUITests" */;
+			buildPhases = (
+				9A6C80621E10043E00C9F53C /* Sources */,
+				9A6C80631E10043E00C9F53C /* Frameworks */,
+				9A6C80641E10043E00C9F53C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A6C80681E10043E00C9F53C /* PBXTargetDependency */,
+			);
+			name = VisaAppUITests;
+			productName = VisaAppUITests;
+			productReference = 9A6C80661E10043E00C9F53C /* VisaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A6C803A1E10043D00C9F53C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yxy;
+				TargetAttributes = {
+					9A6C80411E10043D00C9F53C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					9A6C805A1E10043E00C9F53C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A6C80411E10043D00C9F53C;
+					};
+					9A6C80651E10043E00C9F53C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A6C80411E10043D00C9F53C;
+					};
+				};
+			};
+			buildConfigurationList = 9A6C803D1E10043D00C9F53C /* Build configuration list for PBXProject "VisaApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A6C80391E10043D00C9F53C;
+			productRefGroup = 9A6C80431E10043D00C9F53C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A6C80411E10043D00C9F53C /* VisaApp */,
+				9A6C805A1E10043E00C9F53C /* VisaAppTests */,
+				9A6C80651E10043E00C9F53C /* VisaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A6C80401E10043D00C9F53C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6C80551E10043E00C9F53C /* LaunchScreen.storyboard in Resources */,
+				9A6C80521E10043E00C9F53C /* Assets.xcassets in Resources */,
+				9A6C80501E10043D00C9F53C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6C80591E10043E00C9F53C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6C80641E10043E00C9F53C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A6C803E1E10043D00C9F53C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6C804D1E10043D00C9F53C /* ViewController.m in Sources */,
+				9A6C804A1E10043D00C9F53C /* AppDelegate.m in Sources */,
+				9A6C80471E10043D00C9F53C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6C80571E10043E00C9F53C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6C80601E10043E00C9F53C /* VisaAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6C80621E10043E00C9F53C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6C806B1E10043E00C9F53C /* VisaAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A6C805D1E10043E00C9F53C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A6C80411E10043D00C9F53C /* VisaApp */;
+			targetProxy = 9A6C805C1E10043E00C9F53C /* PBXContainerItemProxy */;
+		};
+		9A6C80681E10043E00C9F53C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A6C80411E10043D00C9F53C /* VisaApp */;
+			targetProxy = 9A6C80671E10043E00C9F53C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A6C804E1E10043D00C9F53C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A6C804F1E10043D00C9F53C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A6C80531E10043E00C9F53C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A6C80541E10043E00C9F53C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A6C806D1E10043E00C9F53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A6C806E1E10043E00C9F53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A6C80701E10043E00C9F53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VisaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yxy.VisaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A6C80711E10043E00C9F53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VisaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yxy.VisaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A6C80731E10043E00C9F53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VisaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yxy.VisaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisaApp.app/VisaApp";
+			};
+			name = Debug;
+		};
+		9A6C80741E10043E00C9F53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VisaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yxy.VisaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisaApp.app/VisaApp";
+			};
+			name = Release;
+		};
+		9A6C80761E10043E00C9F53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VisaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yxy.VisaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VisaApp;
+			};
+			name = Debug;
+		};
+		9A6C80771E10043E00C9F53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VisaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yxy.VisaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VisaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A6C803D1E10043D00C9F53C /* Build configuration list for PBXProject "VisaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6C806D1E10043E00C9F53C /* Debug */,
+				9A6C806E1E10043E00C9F53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6C806F1E10043E00C9F53C /* Build configuration list for PBXNativeTarget "VisaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6C80701E10043E00C9F53C /* Debug */,
+				9A6C80711E10043E00C9F53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A6C80721E10043E00C9F53C /* Build configuration list for PBXNativeTarget "VisaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6C80731E10043E00C9F53C /* Debug */,
+				9A6C80741E10043E00C9F53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A6C80751E10043E00C9F53C /* Build configuration list for PBXNativeTarget "VisaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6C80761E10043E00C9F53C /* Debug */,
+				9A6C80771E10043E00C9F53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A6C803A1E10043D00C9F53C /* Project object */;
+}

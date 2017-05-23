@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>material</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>学龄前儿童</string>
+			<key>image</key>
+			<string>1</string>
+			<key>cList</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>证件照（App拍摄）＊</string>
+					<key>detial</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>护照首页＊</string>
+					<key>detial</key>
+					<string>&gt;清晰拍摄正反面、不要反光</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>身份证＊</string>
+					<key>detial</key>
+					<string>&gt;在有效期内
+&gt;清晰拍摄正反面，不要反光</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>户口本（App 扫描）＊</string>
+					<key>detial</key>
+					<string>&gt;家庭户口的：拍摄整本的所有内容页
+&gt;集体户口的：申请人本人页</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>出生证（App扫描）＊</string>
+					<key>detial</key>
+					<string>&gt;清晰拍摄出生证
+&gt;出生证上要有父母信息并能证明关系</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>护照（原件）＊</string>
+					<key>detial</key>
+					<string>&gt;护照完整无破损、无水渍
+&gt;有效期离出发日期应至少还有6个月
+&gt;至少有四面完整连续的空白页，不包含备注页</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>暂住证（原件）</string>
+					<key>detial</key>
+					<string>&gt;户籍非本领区的申请人必须提供有效的暂住证/居住证</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>在职人员</string>
+			<key>image</key>
+			<string>2</string>
+			<key>cList</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>证件照（App拍摄）＊</string>
+					<key>detial</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>护照首页＊</string>
+					<key>detial</key>
+					<string>&gt;清晰拍摄正反面、不要反光</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>身份证＊</string>
+					<key>detial</key>
+					<string>&gt;在有效期内
+&gt;清晰拍摄正反面，不要反光</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>户口本（App 扫描）＊</string>
+					<key>detial</key>
+					<string>&gt;家庭户口的：拍摄整本的所有内容页
+&gt;集体户口的：申请人本人页</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>固定资产＊</string>
+					<key>detial</key>
+					<string>&gt;以下三项，提供其中一项即可
+&gt;房产证复印件
+&gt;购车证复印件
+&gt;存款证明原件（金额5万元以上，需冻结到归国之后，使馆不予退还，到期自然解冻）</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>婚姻状况＊</string>
+					<key>detial</key>
+					<string>&gt;已婚者：请提供结婚证
+&gt;离婚者：请提供离婚证
+&gt;未婚、丧偶者无需提供</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>护照（原件）＊</string>
+					<key>detial</key>
+					<string>&gt;护照完整无破损、无水渍
+&gt;有效期离出发日期应至少还有6个月
+&gt;至少有四面完整连续的空白页，不包含备注页</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>公司资质证明(复印件加盖公章)＊</string>
+					<key>detial</key>
+					<string>&gt;有最新年审的营业执照副本或者组织机构代码副本
+&gt;A4纸打印之后，再加盖公章</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>带有收入的在职证明＊</string>
+					<key>detial</key>
+					<string>&gt;必须用公司正规抬头纸打印，领导签字并加盖公章
+&gt;须有可供领馆查询的地址、电话。可参考我司模板</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>银行流水(原件)＊</string>
+					<key>detial</key>
+					<string>&gt;本人名下近半年的储蓄卡银行流水账单
+&gt;流水要能反映一年进账收入总和20万元以上（基金理财、最后大笔存入不算）
+&gt;三年内去过日本的申请者只要10万即可
+&gt;一定要打印6个月以上的银行流水账单</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>完税证明(原件)＊</string>
+					<key>detial</key>
+					<string>&gt;近一年个人完税证明（年缴税8万以上）</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>往返机票确认单（原件）＊</string>
+					<key>detial</key>
+					<string>&gt;必须提交真实有效的往返机票确认单</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>全程酒店确认单（原件）＊</string>
+					<key>detial</key>
+					<string>&gt;必须提交真实有效的全程酒店确认单</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>暂住证（原件）</string>
+					<key>detial</key>
+					<string>&gt;户籍非本领区的申请人必须提供有效的暂住证/居住证</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>自由职业者</string>
+			<key>image</key>
+			<string>3</string>
+			<key>cList</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>证件照（App拍摄）＊</string>
+					<key>detial</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>护照首页＊</string>
+					<key>detial</key>
+					<string>&gt;清晰拍摄正反面、不要反光</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>身份证＊</string>
+					<key>detial</key>
+					<string>&gt;在有效期内
+&gt;清晰拍摄正反面，不要反光</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>户口本（App 扫描）＊</string>
+					<key>detial</key>
+					<string>&gt;家庭户口的：拍摄整本的所有内容页
+&gt;集体户口的：申请人本人页</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>婚姻状况＊</string>
+					<key>detial</key>
+					<string>&gt;已婚者：请提供结婚证
+&gt;离婚者：请提供离婚证
+&gt;未婚、丧偶者无需提供</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>护照（原件）＊</string>
+					<key>detial</key>
+					<string>&gt;护照完整无破损、无水渍
+&gt;有效期离出发日期应至少还有6个月
+&gt;至少有四面完整连续的空白页，不包含备注页</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>往返机票确认单（原件）＊</string>
+					<key>detial</key>
+					<string>&gt;必须提交真实有效的往返机票确认单</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>全程酒店确认单（原件）＊</string>
+					<key>detial</key>
+					<string>&gt;必须提交真实有效的全程酒店确认单</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>暂住证（原件）</string>
+					<key>detial</key>
+					<string>&gt;户籍非本领区的申请人必须提供有效的暂住证/居住证</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>退休人员</string>
+			<key>image</key>
+			<string>4</string>
+			<key>cList</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>证件照（App拍摄）＊</string>
+					<key>detial</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>护照首页＊</string>
+					<key>detial</key>
+					<string>&gt;清晰拍摄正反面、不要反光</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>身份证＊</string>
+					<key>detial</key>
+					<string>&gt;在有效期内
+&gt;清晰拍摄正反面，不要反光</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>户口本（App 扫描）＊</string>
+					<key>detial</key>
+					<string>&gt;家庭户口的：拍摄整本的所有内容页
+&gt;集体户口的：申请人本人页</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>退休证（App扫描）＊</string>
+					<key>detial</key>
+					<string>&gt;清晰拍摄退休证内容页</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>婚姻状况＊</string>
+					<key>detial</key>
+					<string>&gt;已婚者：请提供结婚证
+&gt;离婚者：请提供离婚证
+&gt;未婚、丧偶者无需提供</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>护照（原件）＊</string>
+					<key>detial</key>
+					<string>&gt;护照完整无破损、无水渍
+&gt;有效期离出发日期应至少还有6个月
+&gt;至少有四面完整连续的空白页，不包含备注页</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>往返机票确认单（原件）＊</string>
+					<key>detial</key>
+					<string>&gt;必须提交真实有效的往返机票确认单</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>全程酒店确认单（原件）＊</string>
+					<key>detial</key>
+					<string>&gt;必须提交真实有效的全程酒店确认单</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>在校学生</string>
+			<key>image</key>
+			<string>5</string>
+			<key>cList</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>证件照（App拍摄）＊</string>
+					<key>detial</key>
+					<string></string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>护照首页＊</string>
+					<key>detial</key>
+					<string>&gt;清晰拍摄正反面、不要反光</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>身份证＊</string>
+					<key>detial</key>
+					<string>&gt;在有效期内
+&gt;清晰拍摄正反面，不要反光</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>户口本（App 扫描）＊</string>
+					<key>detial</key>
+					<string>&gt;家庭户口的：拍摄整本的所有内容页
+&gt;集体户口的：申请人本人页</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>学生身份证明（App扫描）＊</string>
+					<key>detial</key>
+					<string>&gt;在校学生：学生证正反面
+&gt;处于升学期间的申请者：录取通知书
+&gt;尚未就业的应届毕业生：毕业证+学生证</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>出生证（App扫描）</string>
+					<key>detial</key>
+					<string>&gt;未满18周岁者才需要提供</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>护照（原件）＊</string>
+					<key>detial</key>
+					<string>&gt;护照完整无破损、无水渍
+&gt;有效期离出发日期应至少还有6个月
+&gt;至少有四面完整连续的空白页，不包含备注页</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>往返机票确认单（原件）＊</string>
+					<key>detial</key>
+					<string>&gt;必须提交真实有效的往返机票确认单</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>全程酒店确认单（原件）＊</string>
+					<key>detial</key>
+					<string>&gt;必须提交真实有效的全程酒店确认单</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>暂住证（原件）</string>
+					<key>detial</key>
+					<string>&gt;户籍非本领区的申请人必须提供有效的暂住证/居住证</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
